@@ -15,8 +15,7 @@ const Payment = () => {
   const navigate = useNavigate();
 
   const paypalOptions = {
-    clientId:
-      'access_token$sandbox$8c2h95ffnbwjdyps$b2fae4b8fc44aa6c4caafa06f8d850dc',
+    clientId: import.meta.env.VITE_ACCESS_TOKEN,
     intent: 'capture',
     currency: 'USD',
   };
