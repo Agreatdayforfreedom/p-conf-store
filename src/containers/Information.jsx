@@ -36,7 +36,7 @@ const Information = () => {
           <h2>Informacion de contacto:</h2>
         </div>
         <div className="Information-form">
-          <form action="">
+          <form ref={form}>
             <input type="text" placeholder="Nombre completo" id="name" />
             <input type="text" placeholder="Correo electronico" id="email" />
             <input type="text" placeholder="Direccion" id="address" />
