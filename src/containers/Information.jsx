@@ -25,6 +25,7 @@ const Information = () => {
       state: formData.get('state'),
       cp: formData.get('cp'),
     };
+    console.log(buyer);
     addToBuyer(buyer);
     navigate('/checkout/payment');
   };
